@@ -20,7 +20,7 @@ const createDate = (dates,index) =>{
     dateString.sort((a,b)=> a - b);
     return dateString.join("-");
   }else{
-    return dateString[index].toString();
+    return dateString[index];
   }
 
 };
