@@ -13,7 +13,7 @@ const createDate = (dates,index) =>{
   
   for(let i=0;i<dates.length;i++){
     const x = new Date(dates[i]).getTime()/1000;
-    dateString.push(x);
+    dateString.push(x.toString());
   }
 
   if(index === undefined){
